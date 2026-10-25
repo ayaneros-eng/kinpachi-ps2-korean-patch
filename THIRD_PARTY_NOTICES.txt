@@ -19,8 +19,8 @@ Copyright (c) 2025 by KERIS. 라이선스: SIL Open Font License 1.1.
 
 Python 3.12 x64: PSF License 및 포함 구성요소의 고지.
 https://docs.python.org/3.12/license.html
-간편 실행기는 기존 Python 3.12 x64를 먼저 사용합니다. 없으면 사용자의 동의 후
-CPython 공식 NuGet Python 3.12.10 패키지를 개인 폴더에 압축 해제합니다.
+적용기 r2는 설치된 Python을 사용하지 않고 CPython 공식 NuGet Python 3.12.10
+x64 패키지를 선택한 저장 폴더의 KinpachiRuntime-r2 안에 준비합니다.
 Windows 설치·등록은 하지 않으며 PATH·기본 앱·시스템 실행 정책을 바꾸지 않습니다.
 패키지 크기·고정 SHA-256·공식 카탈로그 SHA-512 및 python.exe, python312.dll,
 python3.dll의 유효한 Python Software Foundation 서명을 확인한 뒤 사용합니다.
