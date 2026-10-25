@@ -1,0 +1,53 @@
+외부 구성요소와 출처
+
+함께 배포하는 폰트
+
+나눔고딕 Regular / Bold
+Copyright (c) 2010, NHN Corporation 및 원래 OFL.txt에 기재된 저작권자.
+라이선스: SIL Open Font License 1.1. Reserved Font Name 및 원래 고지를 유지합니다.
+출처: https://github.com/google/fonts/tree/133ccbee9a8b408eb71f31a36ccb9116f5c695ad/ofl/nanumgothic
+패키지 위치: patch/graphics/fonts/nanum_gothic/ 및 patch/messages/fonts/
+
+학교안심 책갈피 R (TTF / OTF)
+Copyright (c) 2025 by KERIS. 라이선스: SIL Open Font License 1.1.
+출처: https://copyright.keris.or.kr/wft/fntDwnldView?fntGrpId=GFT202509240000000000001
+패키지 위치: patch/graphics/fonts/school_bookmark/ 및 patch/prologue/fonts/
+원래 폰트 파일은 수정하지 않고 OFL 전문과 출처 정보를 함께 둡니다.
+자세한 조건: https://openfontlicense.org/open-font-license-official-text/
+
+이용자 PC에 별도로 준비하는 실행 도구
+
+Python 3.12 x64: PSF License 및 포함 구성요소의 고지.
+https://docs.python.org/3.12/license.html
+간편 실행기는 기존 Python 3.12 x64를 먼저 사용합니다. 없으면 사용자의 동의 후
+CPython 공식 NuGet Python 3.12.10 패키지를 개인 폴더에 압축 해제합니다.
+Windows 설치·등록은 하지 않으며 PATH·기본 앱·시스템 실행 정책을 바꾸지 않습니다.
+패키지 크기·고정 SHA-256·공식 카탈로그 SHA-512 및 python.exe, python312.dll,
+python3.dll의 유효한 Python Software Foundation 서명을 확인한 뒤 사용합니다.
+공식 배포 안내: https://docs.python.org/3.12/using/windows.html#the-nuget-org-packages
+패키지 출처: https://www.nuget.org/packages/python/3.12.10
+런타임은 배포 ZIP에 포함하지 않으며 이용자 PC에서 필요할 때 내려받습니다.
+원래 패키지의 PSF 라이선스와 포함 고지를 함께 보존합니다.
+NumPy 2.3.5(그래픽) / 2.5.4(영상): BSD-3-Clause 및 wheel 내 외부 라이브러리 고지.
+https://numpy.org/doc/stable/license.html
+Pillow 12.3.0: MIT-CMU 및 포함 라이브러리 고지.
+https://github.com/python-pillow/Pillow/blob/12.3.0/LICENSE
+PyAV 19.0.2의 Python 바인딩: BSD-3-Clause.
+https://github.com/PyAV-Org/PyAV/blob/v19.0.2/LICENSE.txt
+PyAV의 설치용 wheel에는 FFmpeg가 포함되며, 그 전체가 BSD만으로 허락된다는 뜻은 아닙니다.
+https://pyav.basswood.io/docs/stable/overview/installation.html
+FFmpeg의 적용 조건은 해당 빌드에 따라 LGPL/GPL 및 외부 라이브러리 조건을 포함합니다.
+https://ffmpeg.org/legal.html
+
+이 저장소와 소스 패치 ZIP에는 위 실행 도구의 wheel, DLL, 가상환경 또는 설치된
+바이너리를 넣지 않습니다. 제공한 설치 스크립트가 고정한 버전과 해시로 사용자
+환경에 따로 설치합니다. 추후 실행 환경까지 묶어 배포하면 해당 바이너리의
+라이선스·소스 제공 조건·외부 라이브러리 고지를 다시 확인해야 합니다.
+
+게임 화면 및 원본 자료
+패치 ZIP은 원본 ISO, BIOS, 게임 실행 파일, 음성·동영상·배경 이미지와 세이브를
+포함하지 않습니다. 필요한 자료는 사용자가 준비한 원본 ISO에서 읽습니다.
+저장소 README의 예시 이미지 2장은 패치 결과 설명용 게임 캡처이며 패치 생성 입력이
+아닙니다. 이 두 이미지는 릴리스 ZIP에도 포함하지 않습니다. 해당 화면의 게임
+저작물은 각 권리자에게 귀속됩니다. 원본 게임의
+권리자가 이 패치나 저장소를 승인·후원했다는 의미는 아닙니다.

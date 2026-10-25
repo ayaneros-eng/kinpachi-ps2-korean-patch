@@ -1,0 +1,37 @@
+공개 자료의 범위
+
+이 프로젝트는 사용자가 준비한 일본판 원본 ISO를 읽어 별도의 한국어 ISO를
+생성하는 패치 소스입니다. 배포용 패치에는 게임·BIOS·원음·동영상·배경 그림·
+게임 폰트 비트맵·세이브·일본어 전체 대본을 포함하지 않습니다. 한국어 번역,
+제작용 시각·좌표 정보, 새 도구 코드, 식별용 해시와 OFL 폰트가 포함됩니다.
+원본 실행 명령이 필요한 곳은 이용자의 원본 ISO에서 읽습니다.
+
+GitHub 소개에 사용하는 게임 캡처는 README의 2장으로 제한하며 릴리스 ZIP에는
+넣지 않습니다. 이 두 화면은 원작의
+그림을 포함하므로 저장소 전체가 게임 이미지와 무관하다는 뜻은 아닙니다.
+게임 실행 파일이나 재생 가능한 미디어 대신, 실제 표시 결과를 설명하기 위한
+예시입니다. 공개 이미지의 경로·해시는 별도 목록으로 관리합니다.
+
+이 구성은 원작 자료의 추가 배포를 줄이기 위한 기술적 조치입니다. 번역·개작
+또는 화면 공개에 필요한 권리를 자동으로 확보하거나 법적 위험이 없다고
+보증하지 않습니다. 무료 배포와 원본 보유 조건만으로 권리자의 허락을
+대체하지도 않습니다. 게임과 상표의 권리는 각 권리자에게 있습니다.
+
+폰트는 OFL 고지와 함께 배포하며 외부 실행 환경은 별도로 설치합니다.
+이 저장소의 문서가 폰트·도구·게임에 적용되는 권리를 일괄 재허락하지 않습니다.
+구체적인 구성은 저장소·릴리스 상위의 LICENSE와 THIRD_PARTY_NOTICES.txt를
+참고하십시오. 패치 내부 폰트 고지의 상대 위치는 graphics/fonts/,
+messages/fonts/, prologue/fonts/이며 외부 패키지에서는 patch/ 아래에 있습니다.
+
+권리 관련 문의는 저장소의 Issue로 해당 파일과 문제되는 내용을 알려주십시오.
+개인정보를 공개 Issue에 올리지 마십시오. GitHub의 저작권 통지 절차도 이용할
+수 있습니다: https://docs.github.com/en/site-policy/content-removal-policies/dmca-takedown-policy
+
+확인한 공식 자료(2026-10-25)
+저작권법 제46조: https://www.law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1033063223
+저작권법 제35조의5: https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1029423587
+OFL: https://openfontlicense.org/open-font-license-official-text/
+GitHub 라이선스 안내: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository
+
+이 문서는 배포 범위와 확인 근거를 설명하며 개별 이용에 대한 법률 판정서는
+아닙니다. 아직 확인하지 않은 권리자의 허락이나 공식 제휴를 주장하지 않습니다.
